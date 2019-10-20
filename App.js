@@ -1,13 +1,14 @@
 import React from 'react';
 import './app.css';
+import {appleDocsLink} from './Links';
+import LinkButton from './LinkButton';
 
 function App() {
   return (
     <div className="App">
       
         <br></br><br></br><br></br>
-        <a href='https://developer.apple.com/documentation/' className='link-button'>
-        Apple Developer Documentation</a>
+        <LinkButton link={appleDocsLink}/>
         <a href='https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html' className='link-button'>
         Swift Language Documentation</a>
         <br></br><br></br><br></br>
