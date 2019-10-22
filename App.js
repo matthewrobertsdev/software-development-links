@@ -16,14 +16,22 @@ function App() {
         <LinkButton link={appleDocsLink}/><LinkButton link={swiftLanguageLink}/>
         <h3 className='heading-color'>Mobile Development</h3>
         <LinkButton link={rayWenderlichLink}/>
-        <LinkBreak/><LinkButton link={androidDocsLink}/>
-        <LinkBreak/><LinkButton link={w3SchoolLink}/><LinkButton link={mdnDocs}/><LinkButton link={freeCodeCampLink}/>
-        <LinkBreak/><LinkButton link={reactTutorialLink}/><LinkButton link={createReactAppLink}/>
-        <LinkBreak/><LinkButton link={geeksForGeeksLink}/>
-        <LinkBreak/><LinkButton link={oracleJavaTutorialsLink}/><LinkButton link={oracleJavaLanguageLink}/>
-        <LinkBreak/><LinkButton link={mySQLReferenceLink}/><LinkButton link={mySQLDownloadsLink}/>
-        <LinkBreak/><LinkButton link={githubLink}/><LinkButton link={stackOverflowLink}/>
-        <LinkBreak/><LinkButton link={pythonLink}/><LinkButton link={python3DocsLink}/>
+        <h3 className='heading-color'>Android Development</h3>
+        <LinkButton link={androidDocsLink}/>
+        <h3 className='heading-color'>Web Development</h3>
+        <LinkButton link={w3SchoolLink}/><LinkButton link={mdnDocs}/><LinkButton link={freeCodeCampLink}/>
+        <h3 className='heading-color'>React Web Framework</h3>
+        <LinkButton link={reactTutorialLink}/><LinkButton link={createReactAppLink}/>
+        <h3 className='heading-color'>All Purpose Coding</h3>
+        <LinkButton link={geeksForGeeksLink}/>
+        <h3 className='heading-color'>Java</h3>
+        <LinkButton link={oracleJavaTutorialsLink}/><LinkButton link={oracleJavaLanguageLink}/>
+        <h3 className='heading-color'>MySQL Database</h3>
+        <LinkButton link={mySQLReferenceLink}/><LinkButton link={mySQLDownloadsLink}/>
+        <h3 className='heading-color'>Github and Stack Overflow</h3>
+        <LinkButton link={githubLink}/><LinkButton link={stackOverflowLink}/>
+        <h3 className='heading-color'>Python</h3>
+        <LinkButton link={pythonLink}/><LinkButton link={python3DocsLink}/>
         <LinkButton link={python3TutorialLink}/><LinkButton link={python3LibraryLink}/>
         <LinkBreak/>
     </div>

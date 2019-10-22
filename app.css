@@ -7,7 +7,7 @@ body{background-color:rgb(51, 102, 255); margin-left: 10%; margin-right: 10%;}
 .heading-color{color:rgb(68, 39, 3)}
 @media (prefers-color-scheme: light) {
     .link-button{background-color: aqua; color:rgb(68, 39, 3);}
-    .heading-color{color:rgb(68, 39, 3)}
+    .heading-color{color:rgb(48, 27, 2)}
 }
 @media (prefers-color-scheme: dark) {
     body{background-color:rgb(15, 0, 116)}
