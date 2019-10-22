@@ -22,7 +22,7 @@ export const geeksForGeeksLink = new LinkModel('https://www.geeksforgeeks.org',
     'Geeks for Geeks');
 export const oracleJavaTutorialsLink = new LinkModel('https://docs.oracle.com/javase/tutorial/index.html',
     'Oracle\'s Java Learning Tutorials');
-export const oracleJavaLanguageLink = new LinkModel('https://docs.oracle.com/javase/tutorial/index.html',
+export const oracleJavaLanguageLink = new LinkModel('https://docs.oracle.com/javase/tutorial/java/index.html',
     'Oracle\'s Learning the Java Language Tutorials');
 export const mySQLReferenceLink = new LinkModel('https://dev.mysql.com/doc/refman/8.0/en/',
     'MySQL Reference Manual');
@@ -36,7 +36,7 @@ export const pythonLink = new LinkModel('https://docs.python.org/3/',
     'Python');
 export const python3DocsLink = new LinkModel('https://www.python.org',
     'Python 3 Documentation');
-export const python3TutorialLink = new LinkModel('https://docs.python.org/3/library/index.html',
+export const python3TutorialLink = new LinkModel('https://docs.python.org/3/tutorial/index.html',
     'Python 3 Tutorial');
 export const python3LibraryLink = new LinkModel('https://docs.python.org/3/library/index.html',
     'Python 3 Standard Library');
