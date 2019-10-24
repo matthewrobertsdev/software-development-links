@@ -5,8 +5,10 @@ mdnDocs, freeCodeCampLink, reactTutorialLink, geeksForGeeksLink, createReactAppL
 oracleJavaTutorialsLink, oracleJavaLanguageLink, mySQLReferenceLink, mySQLDownloadsLink,
 githubLink, stackOverflowLink, pythonLink, python3DocsLink, python3TutorialLink, 
 python3LibraryLink} from './Links';
+import {appleDocsInfo, swiftLanguageInfo, rayWenderlichInfo} from './LinkInfos'
 import LinkButton from './LinkButton';
 import LinkBreak from './LinkBreak';
+import LinkInfoView from './LinkInfoView';
 
 function App() {
   return (
@@ -37,15 +39,10 @@ function App() {
         <LinkBreak/>
         <h1 className='heading-color'>In Detail</h1>
         <h2 className='heading-color'>Apple and Swift</h2>
-        <p className='text-on-background'>Apple's docs for all things Apple.</p>
-        <LinkButton link={appleDocsLink}/>
-        <p className='text-on-background'>Swift is used by developers for writing apps for Apple devices.  It is open source.  
-          This tutorial can be read cover to cover or gone through less thoroughly.</p>
-        <LinkButton link={swiftLanguageLink}/>
+        <LinkInfoView linkInfo={appleDocsInfo}/><LinkInfoView linkInfo={swiftLanguageInfo}/>
         <LinkBreak/>
         <h2 className='heading-color'>Mobile Development</h2>
-        <p className='text-on-background'>Great tutorials for developing for iOS or Android.</p>
-        <LinkButton link={rayWenderlichLink}/>
+        <LinkInfoView linkInfo={rayWenderlichInfo}/>
         <LinkBreak/>
     </div>
   );

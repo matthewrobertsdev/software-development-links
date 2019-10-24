@@ -10,6 +10,8 @@ body{background-color:rgb(20, 203, 244); margin-left: 10%; margin-right: 10%;}
     .link-button{background-color: aqua; color:rgb(68, 39, 3);}
     .heading-color{color:rgb(48, 27, 2)}
     .text-on-background{color:rgb(68, 39, 3);}
+    .text-on-background{color:rgb(68, 39, 3);}
+    .heading-color{color:rgb(68, 39, 3)}
 }
 @media (prefers-color-scheme: dark) {
     body{background-color:rgb(15, 0, 116)}
