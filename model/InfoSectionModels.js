@@ -24,7 +24,7 @@ export const allPurposeInfo=new InfoSectionModel('All Purpose Info', [stackOverf
 export const javaInfo=new InfoSectionModel('Java', [javaTutorialInfo, javaLanguageInfo]);
 export const mySQLInfo=new InfoSectionModel('MySQL', [mySQLReferenceInfo, mySQLDownloadsInfo]);
 export const sourceControlInfo=new InfoSectionModel('Github', [githubInfo]);
-export const pythonInfo=new InfoSectionModel('Github', [python3Info, python3DocsInfo, python3TutorialInfo,
+export const pythonInfo=new InfoSectionModel('Python', [python3Info, python3DocsInfo, python3TutorialInfo,
     python3LibraryInfo]);
 export const infoSectionArray=[appleAndSwiftInfo, mobileInfo, androidSectionInfo, webInfo, reactInfo,
     allPurposeInfo, javaInfo, mySQLInfo, sourceControlInfo, pythonInfo];
