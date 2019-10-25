@@ -1,16 +1,16 @@
 import React from 'react';
 import './app.css';
-import {appleDocsInfo, swiftLanguageInfo, rayWenderlichInfo} from './LinkInfoModel'
+import {appleDocsInfo, swiftLanguageInfo, rayWenderlichInfo} from '../model/LinkInfoModels'
 import LinkBreak from './LinkBreak';
 import LinkInfoView from './LinkInfoView';
-import linksInfoArray from './LinksInfoArray';
+import linksSectionArray from '../model/LinkSectionArray';
 import LinksView from './LinksView'
 
 function App() {
   return (
     <div className="App">
         <h1 className='heading-color'>Software Development Links: An Incomplete List</h1>
-        <LinksView model={linksInfoArray}/>
+        <LinksView model={linksSectionArray}/>
         <LinkBreak/>
         <h1 className='heading-color'>In Detail</h1>
         <h2 className='heading-color'>Apple and Swift</h2>
