@@ -18,7 +18,7 @@ export const androidDocsLink = new LinkModel('https://developer.android.com',
     'Android Developers');
 export const w3SchoolLink = new LinkModel('https://www.w3schools.com/',
     'w3schools');
-export const mdnDocs = new LinkModel('https://developer.mozilla.org/en-US/',
+export const mdnDocsLink = new LinkModel('https://developer.mozilla.org/en-US/',
     'Mozilla Developer Network Documentation');
 export const freeCodeCampLink = new LinkModel('https://www.freecodecamp.org',
     'Free Code Camp');

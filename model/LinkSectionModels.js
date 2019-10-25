@@ -1,6 +1,6 @@
 import {
     appleDocsLink, swiftLanguageLink, rayWenderlichLink, androidDocsLink, w3SchoolLink,
-    mdnDocs, freeCodeCampLink, reactTutorialLink, geeksForGeeksLink, createReactAppLink,
+    mdnDocsLink, freeCodeCampLink, reactTutorialLink, geeksForGeeksLink, createReactAppLink,
     oracleJavaTutorialsLink, oracleJavaLanguageLink, mySQLReferenceLink, mySQLDownloadsLink,
     githubLink, stackOverflowLink, pythonLink, python3DocsLink, python3TutorialLink,
     python3LibraryLink
@@ -22,7 +22,7 @@ export const mobileModel = new LinksSectionModel('Mobile Development', [rayWende
 
 export const androidModel = new LinksSectionModel('Android Development', [androidDocsLink])
 
-export const webModel = new LinksSectionModel('Web Development', [w3SchoolLink, mdnDocs, freeCodeCampLink])
+export const webModel = new LinksSectionModel('Web Development', [w3SchoolLink, mdnDocsLink, freeCodeCampLink])
 
 export const reactModel = new LinksSectionModel('React Web Framework', [reactTutorialLink, createReactAppLink])
 
@@ -36,3 +36,6 @@ export const githubModel = new LinksSectionModel('Github', [githubLink])
 
 export const pythonModel = new LinksSectionModel('Python', [pythonLink, python3DocsLink,
     python3TutorialLink, python3LibraryLink])
+
+export const linksSectionArray=[appleAndSwiftModel, mobileModel, androidModel, webModel, reactModel, allPurposeModel, 
+    javaModel, mySQLModel, githubModel, pythonModel];

@@ -1,10 +1,10 @@
 import React from 'react';
 import './app.css';
-import {appleDocsInfo, swiftLanguageInfo, rayWenderlichInfo} from '../model/LinkInfoModels'
+import {infoSectionArray} from '../model/InfoSectionModels';
 import LinkBreak from './LinkBreak';
-import LinkInfoView from './LinkInfoView';
-import linksSectionArray from '../model/LinkSectionArray';
+import {linksSectionArray} from '../model/LinkSectionModels';
 import LinksView from './LinksView'
+import InfosView from './InfosView';
 
 function App() {
   return (
@@ -12,12 +12,7 @@ function App() {
         <h1 className='heading-color'>Software Development Links: An Incomplete List</h1>
         <LinksView model={linksSectionArray}/>
         <LinkBreak/>
-        <h1 className='heading-color'>In Detail</h1>
-        <h2 className='heading-color'>Apple and Swift</h2>
-        <LinkInfoView linkInfo={appleDocsInfo}/><LinkInfoView linkInfo={swiftLanguageInfo}/>
-        <LinkBreak/>
-        <h2 className='heading-color'>Mobile Development</h2>
-        <LinkInfoView linkInfo={rayWenderlichInfo}/>
+        <InfosView model={infoSectionArray}/>
         <LinkBreak/>
     </div>
   );
