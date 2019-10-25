@@ -1,4 +1,12 @@
-import LinkModel from './LinkModel'
+class LinkModel{
+    url
+    title
+    constructor(url, title){
+        this.url=url
+        this.title=title
+    }
+}
+export default LinkModel;
 
 export const appleDocsLink = new LinkModel('https://developer.apple.com/documentation/',
     'Apple Developer Documentation');
@@ -32,9 +40,9 @@ export const githubLink = new LinkModel('https://github.com/',
     'Github');
 export const stackOverflowLink = new LinkModel('https://stackoverflow.com',
     'Stack Overflow');
-export const pythonLink = new LinkModel('https://docs.python.org/3/',
+export const pythonLink = new LinkModel('https://www.python.org',
     'Python');
-export const python3DocsLink = new LinkModel('https://www.python.org',
+export const python3DocsLink = new LinkModel('https://docs.python.org/3/',
     'Python 3 Documentation');
 export const python3TutorialLink = new LinkModel('https://docs.python.org/3/tutorial/index.html',
     'Python 3 Tutorial');
