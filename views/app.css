@@ -6,10 +6,12 @@ body{background-color:rgb(20, 203, 244); margin-left: 10%; margin-right: 10%;}
 .text-on-background{color:rgb(68, 39, 3); line-height: 30px;}
 .heading-color{color:rgb(68, 39, 3)}
 .h3-size{font-size: 18.72px;}
-.hide-for-not-small{display: none;}
-@media only screen and (max-width: 300px) {
+@media only screen and (min-width: 0px) and (max-width: 400px) {
     .hide-for-not-small{display: inline;}
   }
+@media screen and (min-width: 401px)  {
+    .hide-for-not-small{ display: none; }
+}
 @media (prefers-color-scheme: light) {
     .link-button{background-color: aqua; color:rgb(68, 39, 3);}
     .heading-color{color:rgb(48, 27, 2)}

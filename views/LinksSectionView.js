@@ -8,7 +8,8 @@ class LinkSectionView extends React.Component{
     }
 
     createSection(){
-        return this.props.model.links.map(link=><LinkButton link={link}/>)
+        return this.props.model.links.map(link=><span><LinkButton link={link}/>
+        <br className='hide-for-not-small'></br></span>)
     }
 }
 
