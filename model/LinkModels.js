@@ -12,6 +12,10 @@ export const appleDocsLink = new LinkModel('https://developer.apple.com/document
     'Apple Docs');
 export const swiftLanguageLink = new LinkModel('https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html',
     'Swift Docs');
+export const appleInterfaceLink=new LinkModel('https://developer.apple.com/design/human-interface-guidelines/',
+    'Apple Human Interface')
+export const appStoreLink=new LinkModel('https://developer.apple.com/app-store/review/guidelines/#performance',
+    'App Store Info')
 export const rayWenderlichLink = new LinkModel('https://www.raywenderlich.com',
     'RayWenderlich.com');
 export const androidDocsLink = new LinkModel('https://developer.android.com',

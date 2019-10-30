@@ -1,5 +1,6 @@
 import {
-    appleDocsLink, swiftLanguageLink, rayWenderlichLink, androidDocsLink, w3SchoolLink,
+    appleDocsLink, swiftLanguageLink, appleInterfaceLink, appStoreLink,
+    rayWenderlichLink, androidDocsLink, w3SchoolLink,
     mdnDocsLink, freeCodeCampLink, reactTutorialLink, geeksForGeeksLink, createReactAppLink,
     oracleJavaTutorialsLink, oracleJavaLanguageLink, mySQLReferenceLink, mySQLDownloadsLink,
     githubLink, stackOverflowLink, pythonLink, python3DocsLink, python3TutorialLink,
@@ -21,6 +22,11 @@ export const appleDocsInfo = new LinkInfoModel(appleDocsLink,
 export const swiftLanguageInfo = new LinkInfoModel(swiftLanguageLink,
     'Swift is used by developers for writing apps for Apple devices.  It is open source.  '
     + 'This tutorial can be read cover to cover or gone through less thoroughly.');
+export const appleInterfaceInfo = new LinkInfoModel(appleInterfaceLink,
+    'Apple requests that developers of software for Apple\'s devices adhere to these '+
+    'guideleines for the user interface.');
+export const appStoreInfo = new LinkInfoModel(appStoreLink,
+    'Apple\'s requirements for apps on their app stores.');
 export const rayWenderlichInfo = new LinkInfoModel(rayWenderlichLink,
     'Great tutorials for developing for iOS or Android.');
 export const androidInfo = new LinkInfoModel(androidDocsLink,
@@ -46,7 +52,7 @@ export const javaTutorialInfo = new LinkInfoModel(oracleJavaTutorialsLink,
 export const javaLanguageInfo = new LinkInfoModel(oracleJavaLanguageLink,
     'Tutorial on the Java computer language that can help get you coding.');
 export const mySQLReferenceInfo = new LinkInfoModel(mySQLReferenceLink,
-    'Documentation on MySQL and using MySql that contains a tutorial that ' +
+    'Documentation on MySQL and using MySQL that contains a tutorial that ' +
     'teaches you the commands for working with a MySQL database.');
 export const mySQLDownloadsInfo = new LinkInfoModel(mySQLDownloadsLink,
     'You can download MySQL (the MySQL server) and other software such as the MySQL ' +

@@ -1,4 +1,5 @@
-import {appleDocsInfo, swiftLanguageInfo, rayWenderlichInfo, androidInfo,
+import {appleDocsInfo, swiftLanguageInfo, appleInterfaceInfo, appStoreInfo,
+    rayWenderlichInfo, androidInfo,
     w3SchoolsInfo, mdnDocsInfo, fccInfo, reactTutorialInfo, createReactAppInfo,
     stackOverflowInfo, geaksForGeeksInfo, javaTutorialInfo, javaLanguageInfo,
     mySQLReferenceInfo, mySQLDownloadsInfo, githubInfo, python3Info, python3DocsInfo, 
@@ -15,7 +16,8 @@ class InfoSectionModel {
 }
 export default InfoSectionModel;
 
-export const appleAndSwiftInfo=new InfoSectionModel('Apple and Swift', [appleDocsInfo, swiftLanguageInfo]);
+export const appleAndSwiftInfo=new InfoSectionModel('Apple and Swift', [appleDocsInfo, swiftLanguageInfo,
+    appleInterfaceInfo, appStoreInfo]);
 export const mobileInfo=new InfoSectionModel('Mobile Development', [rayWenderlichInfo]);
 export const androidSectionInfo=new InfoSectionModel('Android Development', [androidInfo]);
 export const webInfo=new InfoSectionModel('Web Development', [w3SchoolsInfo, mdnDocsInfo, fccInfo]);

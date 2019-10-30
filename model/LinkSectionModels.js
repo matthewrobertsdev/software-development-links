@@ -1,5 +1,6 @@
 import {
-    appleDocsLink, swiftLanguageLink, rayWenderlichLink, androidDocsLink, w3SchoolLink,
+    appleDocsLink, swiftLanguageLink, appleInterfaceLink, appStoreLink,
+    rayWenderlichLink, androidDocsLink, w3SchoolLink,
     mdnDocsLink, freeCodeCampLink, reactTutorialLink, geeksForGeeksLink, createReactAppLink,
     oracleJavaTutorialsLink, oracleJavaLanguageLink, mySQLReferenceLink, mySQLDownloadsLink,
     githubLink, stackOverflowLink, pythonLink, python3DocsLink, python3TutorialLink,
@@ -16,7 +17,8 @@ class LinksSectionModel {
 }
 export default LinksSectionModel;
 
-export const appleAndSwiftModel = new LinksSectionModel('Apple and Swift', [appleDocsLink, swiftLanguageLink]);
+export const appleAndSwiftModel = new LinksSectionModel('Apple and Swift', [appleDocsLink, swiftLanguageLink,
+    appleInterfaceLink, appStoreLink]);
 
 export const mobileModel = new LinksSectionModel('Mobile Development', [rayWenderlichLink])
 
